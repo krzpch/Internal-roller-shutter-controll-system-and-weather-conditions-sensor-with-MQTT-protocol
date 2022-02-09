@@ -55,7 +55,10 @@ dkms.conf
 *.pdf
 *.doc
 *.docx
-*.otti
+*.otii
 *.ppt
+*.jpg
+*.png
+*.zip
 Specyfkikacja_Wymagan/
 Other/
