@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WS_V2/Core/Inc/HM-BT4502.h&apos; to &apos;hm-bt4502.h&apos;" description="Rename resource &apos;HM-BT4502.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/HM-BT4502.h" name="hm-bt4502.h" stamp="1638467963146" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WS_V2/Core/Src/HM-BT4502.c&apos; to &apos;hm-bt4502.c&apos;" description="Rename resource &apos;HM-BT4502.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HM-BT4502.c" name="hm-bt4502.c" stamp="1638467971908" updateReferences="true"/>
+</session>

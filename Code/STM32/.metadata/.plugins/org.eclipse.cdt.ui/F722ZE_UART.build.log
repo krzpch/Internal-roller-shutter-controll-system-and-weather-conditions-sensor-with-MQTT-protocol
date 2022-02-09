@@ -1,0 +1,10 @@
+16:30:20 **** Incremental Build of configuration Debug for project F722ZE_UART ****
+make -j4 all 
+arm-none-eabi-size   F722ZE_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23004	    120	   2920	  26044	   65bc	F722ZE_UART.elf
+Finished building: default.size.stdout
+ 
+
+16:30:20 Build Finished. 0 errors, 0 warnings. (took 578ms)
+

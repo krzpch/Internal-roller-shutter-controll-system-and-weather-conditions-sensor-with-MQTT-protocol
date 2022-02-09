@@ -1,0 +1,20 @@
+/*
+ * HM_BT4502.c
+ *
+ *  Created on: 9 paź 2021
+ *      Author: Krzysztof Półchłopek
+ */
+
+
+#include "HM_BT4502.h"
+
+HAL_StatusTypeDef bt_transmit(uint8_t* tx_buff, size_t len,) {
+	HAL_GPIO_WritePin(BT_WAKEUP_GPIO_Port, BT_WAKEUP_Pin, GPIO_PIN_RESET);
+	HAL_Delay(1);
+	HAL_UART_Transmit(&hlpuart1, tx_buff, len, 100);
+	HAL_GPIO_WritePin(BT_WAKEUP_GPIO_Port, BT_WAKEUP_Pin, GPIO_PIN_SET);
+}
+
+HAL_StatusTypeDef bt_recive() {
+
+}
